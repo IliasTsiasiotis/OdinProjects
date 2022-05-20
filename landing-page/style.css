@@ -59,10 +59,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:antiquewhite;
+    background-color: gray;
     height: 200px;
     margin-right: 130px;
     
+}
+
+.hero-2 > p {
+    color: #E5E7EB;
 }
 
 .hero-header {
@@ -75,4 +79,46 @@ a {
 header,
 .banner {
     background-color: #1f2937;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info > h2 {
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info-square-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 800px;
+    padding: 40px 0;
+}
+
+.info-square-text > p {
+    width: 150px;
+}
+
+.info-square-box {
+    width: 140px;
+    height: 140px;
+    border: solid 2px blue;
+    border-radius: 20px;
 }
