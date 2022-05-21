@@ -1,0 +1,126 @@
+body {
+    background-color: aliceblue;
+}
+
+ul li {
+    line-height: 30px;
+    list-style: none;
+}
+
+ol li {
+    margin-bottom: 4px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+section > a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+section > a, img {
+    width: 400px;
+    
+}
+
+.container {
+    margin-top: 130px;
+}
+
+
+.container > section {
+    display: inline-block;
+    margin-left: 75px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container > section:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+.container-recipe-salmon {
+    text-align: center;
+}
+
+.container-recipe-salmon > p {
+    margin: 40px 0;
+    text-transform: uppercase;
+}
+
+#section-ingredients-salmon {
+    width: 199px;
+    background-color: aquamarine;
+}
+
+.section-recipe-salmon > section {
+    display: inline-block;
+    width: 299px;
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+   
+}
+
+#navigation li {
+    display: inline-block;
+}
+
+#navigation ul li:nth-child(even){
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.container-edamame {
+    text-align: center;
+}
+
+.container-edamame > p {
+    margin: 40px 0;
+    text-transform: uppercase;
+}
+
+#section-ingredients-edamame {
+    width: 199px;
+    background-color: aquamarine;
+}
+
+.container-recipe-edamame > section {
+    display: inline-block;
+    width: 299px;
+}
+
+.container-kakuni {
+    text-align: center;
+}
+
+.container-kakuni > p {
+    margin: 40px 0;
+    text-transform: uppercase;
+}
+
+#section-ingredients-kakuni {
+    width: 199px;
+    background-color: aquamarine;
+}
+
+.container-recipe-kakuni > section {
+    display: inline-block;
+    width: 307px;
+}
+
+div {
+    margin-bottom: 60px;
+}
