@@ -122,3 +122,23 @@ header,
     border: solid 2px blue;
     border-radius: 20px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+}
+
+.text {
+    padding: 5px 0;
+    width: 690px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+}
+
+.author {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+}
